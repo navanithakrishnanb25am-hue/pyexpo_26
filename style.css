@@ -1,0 +1,66 @@
+@import url('https://https://fonts.google.com/specimen/Stalinist+One?categoryFilters=Feeling:%2FExpressive%2FFuturisticfonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding:15px 80px;
+    display: flex;
+    align-items: center;
+    z-index: 100;
+    backdrop-filter: blur(99px);
+}
+.logo{
+    font-size: 30px;
+    color:white;
+    text-decoration: none;
+    font-weight: 700;
+    margin-right: auto;
+}
+nav a { 
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+}
+.userauth {
+    margin-left: 40px;
+}
+.userauth .login-btn-model {
+    height: 40px;
+    padding: 0 35px;
+    background: transparent ;
+    border: 2px solid #fff;
+    border-radius: 999px;
+    font-size: 16px;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    transition: .5s;
+}
+.userauth .login-btn-model:hover {
+    background: white;
+    color: black;
+}
+section {
+    min-height: 100vh;
+    background-image: url("background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 0 100px;
+}
+section h1{
+    position: absolute;
+    bottom: 20px;
+    font-size: 30px;
+    color: white;
+    font-weight: 600;
+}
